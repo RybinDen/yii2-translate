@@ -1,0 +1,24 @@
+{
+    "name": "rybinden/yii2-translate",
+    "description": "yii2 translate component.",
+    "keywords": ["yii", "extension", "component", "yandex", "translate"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rybin Denis",
+            "email": "mejdugorka@yandex.ru",
+            "homepage": "http://rybinden.ru",
+            "role": "Developer"
+        }
+    ],
+    "require" : {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rybinden\\translate\\": ""
+        }
+    }
+}
